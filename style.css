@@ -1,0 +1,159 @@
+*
+{
+padding: 0;
+margin:  0;
+}
+
+
+.header
+{
+  height: 100% !important;
+  background-image: url("image1.jpg") !important;
+  background-color: #00000000;
+  background-size:auto !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  padding-top: 30px !important;
+  text-align: center !important;
+  color:#000000;
+}
+.header img
+{
+  width: 150px;
+  float: left;
+}
+.Login-btn
+{
+  width: 100px;
+  padding: 8px 0;
+  outline: none;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  background: marron;
+  color: #000000;
+  float: right;
+}
+.header h1{
+  padding-top: 230px;
+  padding-bottom: 0;
+  font-size: 50px;
+}
+.header p{
+  margin: 1px 10px ;
+}
+.input-group
+{
+  width:90% !important;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin:auto;
+  padding: 2px;
+}
+.form-control{
+  border: 0 !important;
+  border-radius: 30px!important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(blue,pink);
+  border: 0 !important;
+  color: white !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important
+}
+
+/*features*/
+.features{
+  padding: 100px 0;
+
+}
+h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.feature-img img
+{
+  width:100%;
+  float: none !important;
+
+
+}
+.Price{
+  width: 50px;
+  height:50px;
+  background:blue;
+  color:#fff;
+  font-weight:600;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  left: 20px;
+  bottom:-25px;
+}
+.feature-img{
+  position: relative;
+}
+.rating{
+  padding: 3px;
+  float:right !important;
+  background: #fff;
+  bottom: 1px !important;
+  right: 0 !important;
+  position:absolute;
+}
+.features .fa{
+  font-size: 15px;
+  color:red;
+}
+.feature-details{
+  padding: 20px;
+  text-align: justify;
+}
+.feature-details h4
+{
+  font-weight: 600;
+  margin-top: 20px;
+}
+.feature-details fa{
+  margin-right: 5px;
+}
+.feature-box{
+  box-shadow: 0 0 10px 1px rgba(37,72,214,0.18);
+  margin-bottom: 30px;
+}
+.gallery{
+  padding: 100px 0;
+  background: #efefef;
+
+}
+.gallery-box img
+{
+  width: 100% !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  transition: 1s !important;
+}
+.gallery-box img:hover
+{
+  transform: scale(1,1) !important ;
+}
+.gallery-box h4{
+  display: block;
+  color: #ffff;
+  text-shadow: -2px 2px 2px #000;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+.gallery-box{
+  position: relative;
+  margin-bottom: 30px;
+}
