@@ -1,0 +1,2 @@
+# JassCode
+Class practice code
